@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Geo | Simple web-based geolocator</title>
+    <meta charset='utf-8'/>  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="fumnanyaD" />
+    <link href="index.css" rel="stylesheet"/>
+  </head>
+  <body>
+    <div id="container">
+      <h4 id="today"></h4>
+      <h3>Your Latitude: <span id="latSpan"></span></h3>
+      <h3>Your Longitude: <span id="lonSpan"></span></h3>
+      
+      <span id="err"></span>
+      <footer>Powered by <a href="qilobyt.herokuapp.com" >qilobyt</a></footer>    
+    </div> 
+    <script src="index.js"></script> 
+  </body>
+</html>
